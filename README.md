@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# UMLForge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un éditeur de diagrammes UML moderne et intuitif développé avec React. UMLForge permet de créer, éditer et exporter des diagrammes de classes UML avec une interface utilisateur fluide et réactive.
 
-## Available Scripts
+![UMLForge Logo](public/favicon.svg)
 
-In the project directory, you can run:
+## ✨ Fonctionnalités
 
-### `npm start`
+### Modélisation UML
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Éléments de base**
+  - Classes standards
+  - Classes abstraites
+  - Interfaces
+  - Énumérations
+- **Relations**
+  - Héritage
+  - Implémentation
+  - Association
+  - Agrégation
+  - Composition
+- **Attributs et méthodes**
+  - Gestion des visibilités (public, private, protected)
+  - Paramètres et types de retour
+  - Méthodes abstraites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Interface utilisateur
 
-### `npm test`
+- Interface drag-and-drop intuitive
+- Barre d'outils personnalisable
+- Mode présentation
+- Historique des modifications (undo/redo)
+- Thème moderne et personnalisable
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Export et partage
 
-### `npm run build`
+- Export en PNG/SVG
+- Export en XMI
+- Génération de code (Java, Python, PHP)
+- Mode présentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clonez le dépôt :
+   bash
+   git clone https://github.com/votre-username/umlforge.git
+   cd umlforge
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Installez les dépendances :
+   npm install
 
-### `npm run eject`
+3. Lancez l'application :
+   npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React** - Framework UI
+- **React Flow** - Bibliothèque de diagrammes
+- **Material-UI** - Composants UI
+- **html-to-image** - Export d'images
+- **Google AI** - Génération de code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Scripts disponibles
 
-## Learn More
+- `npm start` - Lance l'application en mode développement
+- `npm test` - Exécute les tests
+- `npm run build` - Crée une version de production
+- `npm run eject` - Permet de personnaliser la configuration (⚠️ irréversible)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Navigateurs supportés
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Chrome (dernière version)
+- Firefox (dernière version)
+- Safari (dernière version)
+- Edge (dernière version)
 
-### Code Splitting
+## 🤝 Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Les contributions sont les bienvenues ! Pour contribuer :
 
-### Analyzing the Bundle Size
+1. Fork le projet
+2. Créez une branche (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Licence
 
-### Making a Progressive Web App
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Équipe
 
-### Advanced Configuration
+- EL HOUFI ACHRAF
+- LAMBRASS YASSIR
+- KARZOUZ SAAD
+- EL MALYARI ANAS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🙏 Remerciements
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React Flow pour la bibliothèque de base
+- Material-UI pour les composants
+- La communauté open source
