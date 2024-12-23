@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond -->
+  <rect width="32" height="32" rx="4" fill="#2B3A67" opacity="0.1"/>
+  
+  <!-- Classes UML miniatures -->
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="10" height="14" rx="1" 
+          fill="#FFFFFF" stroke="#2B3A67" stroke-width="1"/>
+    <rect x="10" y="6" width="10" height="14" rx="1" 
+          fill="#FFFFFF" stroke="#5C6E9B" stroke-width="1"/>
+    <path d="M5 7 L15 13" 
+          stroke="#4299E1" stroke-width="1" 
+          fill="none" stroke-dasharray="1"/>
+  </g>
+</svg> 

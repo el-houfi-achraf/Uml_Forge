@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond du logo -->
+  <rect width="200" height="200" rx="20" fill="#2B3A67" opacity="0.1"/>
+  
+  <!-- Classes UML stylisées -->
+  <g transform="translate(40, 40)">
+    <!-- Première classe -->
+    <rect x="0" y="0" width="60" height="80" rx="4" 
+          fill="#FFFFFF" stroke="#2B3A67" stroke-width="3"/>
+    
+    <!-- Deuxième classe -->
+    <rect x="60" y="40" width="60" height="80" rx="4" 
+          fill="#FFFFFF" stroke="#5C6E9B" stroke-width="3"/>
+    
+    <!-- Ligne de connexion -->
+    <path d="M30 40 L90 80" 
+          stroke="#4299E1" stroke-width="3" 
+          fill="none" stroke-dasharray="4"/>
+    
+    <!-- Symboles UML -->
+    <circle cx="15" cy="15" r="4" fill="#4299E1"/>
+    <circle cx="75" cy="55" r="4" fill="#4299E1"/>
+  </g>
+  
+  <!-- Texte "UML" -->
+  <text x="100" y="160" 
+        font-family="Roboto, sans-serif" 
+        font-size="24" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#2B3A67">
+    UML Editor
+  </text>
+</svg> 

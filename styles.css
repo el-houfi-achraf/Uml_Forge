@@ -1,0 +1,22 @@
+.prompt-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.prompt-button:hover {
+  background-color: #45a049;
+}
+
+.prompt-input {
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: none;
+  width: 300px;
+}
